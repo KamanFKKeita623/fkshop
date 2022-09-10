@@ -1,0 +1,93 @@
+@import url('https: //fonts.googleaps/com/css2?family=Roboto&display=swap');
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(37, 48, 198);
+	font-family: 'Roboto' sans-serif;
+}
+form{
+	margin-top: 30px;
+	background-color: rgb(161, 210, 227);
+	padding: 40px 60px;
+	
+	min-width: 30px;
+	width: 215px;
+}
+form .social-media {
+	margin-top: -20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: -20px;
+}
+form  p {
+	padding: 5px;
+	padding-left: 10px;
+	border: 1px solid #000; 
+	
+	width: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+form p {
+	text-align: center;
+}
+form .inputs {
+	display: flex;
+	flex-direction: column;
+	font-family: Roboto;
+	font-size: 10px;
+}
+form .inputs input[type="email"], input[type="password"]{
+	padding: 10px;
+	width: 260px;
+	margin-left: -40px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 10px;
+	outline: none;
+}
+form span {
+	color: #EB7371;
+	margin-bottom: -10px;
+}
+form button {
+	padding: 15px 25px;
+	margin-bottom: -60px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	width: 280px;
+	margin-left: -40px;
+	background-color: rgb(16, 48, 159);
+	border: none;
+	font-family: verdana;
+	font-size: 15px;
+	color: #FFF;
+	outline: none;
+}
+form .case{
+	color: white;
+	font-size: 20px;
+	display: flex;
+	margin: -25px 0;
+}
+form img {
+	border-radius: 50%;
+	margin: 0 auto;
+	display: flex;
+	height: 150px;
+	width: 150px;
+	margin-top: -35px;
+}
+form .inscription {
+	color: white;
+	margin-left: -50px;
+	font-weight: bold;
+}
+.kk p{
+	font-family: 'Roboto';
+	color: white;
+	font-size: 16px;
+	margin-bottom: 2px;
+	font-weight: bold;

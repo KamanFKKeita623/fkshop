@@ -1,0 +1,211 @@
+/*Initialisation de la page (la definition des elements de la page)*/
+*{
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	font-family: 'open sans', sans-serif arial, verdra,tahoma;
+}
+/*Design du menu-lateral*/
+#menu-lateral {
+	background-color: rgb(0, 0, 0);
+	height: 100%;
+	width: 250px;
+	padding: 20px 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+#menu-lateral #profile {
+	margin-bottom: 30px;
+	text-align: center;
+	color: #FFF;
+}
+#profile img {
+	display: block;
+	height: 150px;
+	width: 150px;
+	margin: 0 auto;
+	border-radius: 50%;
+	border: 10px solid rgb(225, 225, 225);
+}
+#profile p {
+	font-size: 1.5em;
+	margin-top: 3px;
+}
+#profile h3 {
+
+
+	font-size: 1.5em;
+
+}
+	/*Design de la liste*/
+#menu-lateral ul li a {
+	display: block;
+	padding: 13px 30px;
+	color: rgb(225, 225, 225);
+	border-bottom: 1px solid rgb(5, 68, 104); 	/*bordur en bas*/
+	font-size: 16px;   							/* taille du texte*/
+	position: relative;
+}
+#menu-lateral ul li a:hover, .active {
+	background-color: #FFF;  					/*couleur de fond du texte pendant le sur-vol de la souris*/
+	color: darkblue ! important;  				/*couleur du texte pendant le survol de la souris*/
+	border-right: 2px solid rgb(32, 44, 69);	 /*la petite bordure à droite pendant le sur-vol*/
+}
+	/*FIN DESIGN DU MENU LATERAL*/
+	/*la mise en forme du blog*/
+
+
+				/*Debut Design de la section-1 */
+	#section-1 {
+		width: calc(100% - 250px);
+		margin-left: 250px;
+	}
+	#section-1 .topbar {
+		background-color: white;
+		height: 55px;
+		width: 100%;
+		padding: 0 30px;
+		align-items: center;
+		display: flex;
+	}
+	#section-1 .topbar a h2 {
+		color: #000;
+		font-size: 2.3rem;
+	}
+	#section-1 .topbar a h2:hover {
+		color: rgba(92, 92, 252, 0.8);
+	}
+	#section-1 #banner {
+		height: 220px;  /*la hauteur de la bannière*/
+		background-color: rgb(7, 105, 185);
+		padding: 0 30px;
+		text-align: center;
+		color: #FFF;
+	}
+	.titre {
+		text-align: center;
+		font-size: 1.8em;
+		padding-top: 50px;
+	}
+	#section-1 .trait {
+		border: 5px solid lightyellow;
+		width: 50%;   /*Le trait prendra 50% de largeur dans le bloc section*/
+		margin: auto;
+	}
+	#banner button {
+		height: 6vh; /*vh est l'unité de la hauteur et wh l'unité la largeur*/
+		color: rgb(5, 68, 104);
+		font-size: 1em;
+		margin: 10px auto;
+		width: 20%;
+		display: block;
+		align-items: center;
+		cursor: pointer;
+	}
+	/*Debut design de l'article-1*/
+	.article-1 {
+		height: 250px;
+		display: flex;
+		align-items: center;
+		margin-top: 10px;
+		padding: 0 30px;
+	}
+	.article-1 img {
+		width: 200px;
+	}
+	.article-1 .contenu-1 {
+		margin-left: 10px;
+		font-size: 20px;
+
+	}
+
+		/*Debut design de l'article-2*/
+	.article-2 {
+		height: 250px;
+		display: flex;
+		align-items: center;
+		margin-top: 10px;
+		padding: 0 30px;
+	}
+	.article-2 img {
+		width: 200px;
+	}
+	.article-2 .contenu-2 {
+		margin-left: 10px;
+		font-size: 20px;
+	}
+	.article-2 .contenu-2 {
+		margin-left: 10px;
+		font-size: 20px;
+	}
+		/*Fin de la section-1*/
+
+		/*Debut de la section-2*/
+
+	#section-2 {
+		width: calc(100% - 250px);
+		margin-left: 250px;
+	}
+	#section-2 #banner-2 {
+		height: 220px;
+		background-color: rgb(7, 105, 185);
+		padding: 0 30px;
+		align-items: center;
+		color: #FFF;
+		font-family: 'Roboto', sans-serif;
+	}
+	.entete h3 {
+		text-align: center;
+	}
+	label  {
+		margin-left: 450px;
+		float: center;
+
+	}
+
+	.article-3 {
+		height: 250px;
+		display: flex;
+		align-items: center;
+		margin-top: 10px;
+		padding: 0 30px;
+
+	}
+	.article-3 img{
+		width: 200px;
+	}
+	.article-3 .contenu-3 {
+		margin-left: 10px;
+font-size: 20px;		
+	}
+
+
+	.article-4 {
+		height: 250px;
+		display: flex;
+		align-items: center;
+		margin-top: 10px;
+		padding: 0 30px;
+	}
+	.article-4 img{
+		width: 200px;
+		height: 150px;
+	}
+	.article-4 .contenu-4 {
+		margin-left: 10px;
+		font-size: 20px;
+	}
+	footer {
+		margin: 10px;
+		background-color: #FFF;
+		padding: 10px;
+		border: solid;
+	}
+	footer p {
+		color: rgb(0, 0, 0);
+		text-align: center;
+		cursor: !important;
+		font-size: 20px;
+	}

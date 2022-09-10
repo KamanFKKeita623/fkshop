@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>F-SHOP : Vente en ligne</title>
+		
+		<style>
+			body{
+				background: linear-gradient(#FFFFFF, #330066, #FFFFFF);
+			}
+			.pc-ordi{
+				width: 100px;
+				float: left;
+			}
+			#entete{
+				background-color: #050A39;
+				text-align: center;
+				color: #FFF;
+			}
+			#bloc-1{
+				width: 100%;
+				background-color: #050A30;
+				color: #FFF;
+				text-align: center;
+				font-size: 18px;
+				height: 50px;
+				/*mise en forme de la partie affichée en haut*/
+			}
+			#bloc-1 h2 {
+				padding-top: 10px;
+				font-weight: bold;
+				/*Debut Design du bloc-marchandise*/
+			} 
+			#bloc-marchandise {
+				margin-top: 10px;
+				height: 490PX;
+				background-color: #3333FF;
+				color: #FFF;
+			}
+			.marchandise-1{
+				float: left;
+				width: 230px;
+				height: 450px;
+				background-color: #000C66;
+				margin: 15px 12px;
+				padding: 10px;
+				text-align: center;
+			}
+			.numerique {
+				width: 100%;
+			}
+			button {
+				margin-top: 10px;
+				padding: 5px;
+				margin-top: -3px;
+				font-weight: bold;
+			}
+			p {
+				font-size: 17px;
+				margin-bottom: 0.5px;
+			}
+			/*Debut Design du bloc-marchandise*/
+			#bloc-2{
+				width: 100%;
+				background-color: #050A30;
+				color: #FFF;
+				text-align: center;
+				font-size: 18px;
+				height: 50px;
+			}
+
+			#bloc-2 h2 {
+				padding-top: 10px;
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+
+			#bloc-electronique{
+				margin-top: 10px;
+				height: 480px;
+				background: linear-gradient(#21202e, #ffffff, #341b47);
+				color: #FFF;
+
+			}
+			 .marchandise-electroniques-1 {
+			 	float: left;
+			 	width: 230px;
+			 	height: 420px;
+			 	background: #000C66;
+			 	padding: 10px;
+			 	margin: 15px 12px;
+			 	text-align: center;
+			 }
+			 button {
+			 	margin-top: 10px;
+				padding: 7px;
+				margin-top: -3px;
+				font-weight: bold;
+				border-radius: 10px;
+				border: none;
+			 }
+			 button:hover{
+			 	color: #FFF;
+				background: #660066;
+				transition: color: 1s; background: 0.5s;
+				cursor: pointer;
+			 }
+
+			 #bloc-3 {
+			 	width: 100%;
+
+			 }
+
+			 #bloc-collection {
+			 	background: repeating-linear-gradient(#660066, #FF9933, #000066);
+			 	margin-top: 10px;
+			 	height: 485px;
+			 	margin-bottom: 20px;
+			 }
+			 .collection-1 {
+			 	float: left;
+			 	width: 230px;
+			 	height: 430px;
+			 	margin: 15px 12px;
+			 	padding: 10px;
+			 	text-align: center;
+			 	color: #FFF;
+			 }
+
+			 #bloc-3 h2{
+			 	text-align: center;
+			 	color: #FFF;
+			 	background: linear-gradient(#660066, #FF9933, #000066);
+			 	padding: 10px;
+			 	font-weight: bold;
+				text-transform: uppercase;
+			 }
+			 .collection-1 p{
+			 	font-size: 17px;
+				margin-bottom: 0.5px;
+				color: #FFF;
+			 }
+
+			 footer{
+			 	background: linear-gradient(#000000, #3333FF, #660066);
+			 	margin-top: 30px;
+			 	display: flex;
+			 	flex-wrap: wrap;
+			 	justify-content: space-around;
+			 	width: 100%;
+			 }
+			 footer h3{
+			 	color: #FFFF;
+			 	font-weight: bold;
+			 	margin-top: 5px;
+			 	font-size: 20px;
+			 	padding-top: 3px;
+			 }
+			 footer h3:hover{
+			 	color: violet;
+			 	cursor: pointer;
+			 }
+			 footer p{
+			 	color: #ccc;
+			 	font-size: 17px;
+			 }
+			 footer p:hover{
+			 	color: #ffff;
+			 	cursor: pointer;
+			 }
+			 footer .media-social{
+			 	flex-wrap: wrap;
+			 }
+			 footer .media-social p{
+			 	float: left;
+			 	padding-left: 10px;
+			 	display: flex;
+			 	width: 20px;
+			 }
+		</style>
+
+
+
+</head>
+<body>
+	<main style="width : 1100px; margin : auto;">
+		<!-- la definition de la marge de la page -->
+		<div id="entete">
+			<img src="imag/pc1.jpg" style="width: 350px; float : left;">
+			<img src="imag/pc2.jpg" class="pc-ordi">
+			<img src="imag/pc3.jpg" class="pc-ordi">
+			<link rel="stylesheet" type="text/css" href="fontawesome-free-6.1.2/css/all.min.css">
+
+
+			<div id="titre">
+				<h2 style="text-transform: uppercase; padding-top : 50px">Fatim-SHOP : Votre Boutique En Ligne</h2>
+				<h3 style="margin-top : -15px"> Trouver le mot magique pout vendre</h3>
+			</div>
+			<br style="clear : both;">
+		</div>
+		
+		<div id="bloc-1">
+			<h2>NOS MEILLEURS MARCHANDISES</h2>
+		</div>
+
+		<!-- Debut insertion des meilleurs marchantdises -->
+		<div id="bloc-marchandise">
+			<div class="marchandise-1">
+				<img src="imag/ordi/ph1.jpg" class="numerique" alt="phone1"> 
+					<p>Prix : 10 000 000 FG</p>
+				Ordin-Bureautique <br><br>
+				<button>Acheter Maintenant</button>
+			</div>
+			<div class="marchandise-1">
+				<img src="imag/ordi/ph2.jpg" class="numerique" alt="phone2"> 
+					<p>Prix : 4 000 000 FG</p>
+				IPhone 11 <br><br>
+				<button>Acheter Maintenant</button>
+			</div>
+			<div class="marchandise-1">
+				<img src="imag/ordi/ph4.jpg" class="numerique" alt="phone3"> 
+					<p>Prix : 10 000 000 FG</p>
+				IPhone 11 <br><br>
+				<button>Acheter Maintenant</button>
+			</div>
+			<div class="marchandise-1">
+				<img src="imag/ordi/ph44.jpg" class="numerique" alt="phone4"> 
+					<p>Prix : 10 000 000 FG</p>
+				IPhone 11 <br><br>
+				<button>Acheter Maintenant</button>
+			</div>
+			<br style="clear: both;">
+		</div>
+		<!-- Fin insertion des meilleurs marchantdises -->
+
+
+		<!-- Debut du bloc des appareils electroniques -->
+		<div id="bloc-2">
+			<h2>nos produits electroniques</h2>
+		</div>
+
+		  <div id="bloc-electronique">
+			<div class="marchandise-electroniques-1">
+				<img src="imag/l7.jpg" class="numerique" alt="phone1"> 
+					<p>Prix : 10 000 000 FG</p>
+				Meta <br><br>
+				<button>Acheter Maintenant</button>
+			</div>
+			<div class="marchandise-electroniques-1">
+				<img src="imag/ordi.jpg" class="numerique" alt="phone2"> 
+					<p>Prix : 10 000 000 FG</p>
+				Ordinateur<br><br>
+				<button>Acheter Maintenant</button>
+			</div>
+			<div class="marchandise-electroniques-1">
+				<img src="imag/pc.jpg" class="numerique" alt="phone3"> 
+					<p>Prix 8 500 000 FG</p>
+				TOP PC <br><br>
+				<button>Acheter Maintenant</button>
+			</div>
+			<div class="marchandise-electroniques-1">
+				<img src="imag/pro.jpg" class="numerique" alt="Bureau"> 
+					<p>Prix : 15 000 000 FG</p>
+				Bureau Complet <br><br>
+				<button>Acheter Maintenant</button>
+			</div>
+			<br style="clear: both;">
+		</div>
+		<!-- Fin du bloc des appareils electroniques -->
+
+		<!-- Debut collections pour tous -->
+		<div id="bloc-3">
+			<h2>Les collections pour tous </h2>
+		</div>
+
+		<div id="bloc-collection">
+			<div class="collection-1">
+				<img src="imag/c22.jpg" class="image-collection">
+				<p>Prix : 250 000 FG</p>
+				Adidas <br><br>
+				<button>Acheter Maintenant</button>
+			</div>
+			<div class="bloc-collection">
+			<div class="collection-1">
+				<img src="imag/c15.png" class="image-collection">
+				<p>Prix : 250 000 FG</p>
+				Adidas <br><br>
+				<button>Acheter Maintenant</button>
+			</div>
+			<div class="bloc-collection">
+			<div class="collection-1">
+				<img src="imag/gc3.jpg" class="image-collection">
+				<p>Prix : 250 000 FG</p>
+				Adidas <br><br>
+				<button>Acheter Maintenant</button>
+			</div>
+			<div class="bloc-collection">
+			<div class="collection-1">
+				<img src="imag/chaussure 4.jpg" class="image-collection">
+				<p>Prix : 250 000 FG</p>
+				Adidas <br><br>
+				<button>Acheter Maintenant</button>
+			</div>
+			
+		</div>
+		<!-- Fin collections pour tous -->
+
+			<footer>
+		<div class="colum">
+			<h3>Aide</h3>
+			<p>kamison@gmail.com</p>
+			<p>Contactez-nous</p>
+			<p>Postulez</p>
+			<p>Comment Acheter ?</p>
+		</div>
+		<div class="colum">
+				<h3>Recrutement</h3>
+				<p>Businesskamison@gmail.com</p>
+				<p>Postuler en ligne</p>
+				<p>Comment faire ?</p>
+			</div>
+			<div class="media-social">
+				<h3>Reseaux sociaux</h3>
+				<p><i class="fa-brands fa-facebook"></i></p>
+				<p><i class="fa-brands fa-twitter"></i></p>
+				<p><i class="fa-brands fa-google"></i></p>
+				<p><i class="fa-brands fa-youtube"></i></p>
+				<p><i class="fa-brands fa-telegram"></i></p>
+			</div>
+	</footer>
+
+	</main>
+
+</body>
+</html>
